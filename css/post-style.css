@@ -1,2 +1,78 @@
 @import url(style.css);
 
+
+
+.grid-container{
+  grid-template-rows: 1152px 444px;
+}
+
+.post{
+  display: flex;
+  height: auto;
+  font-size: 14px;
+  justify-content: center;
+  
+}
+
+article{
+  padding: 24px;
+}
+
+article:last-child{
+  margin-bottom: 46px;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 366px 366px;
+  grid-template-rows: 69px 203px;
+  column-gap: 24px;
+  row-gap: 24px;
+  grid-template-areas: "na email"
+                       "cbox cbox";
+}
+
+.comment-area>h2{
+  margin-bottom: 24px;
+}
+
+.name-area{
+  grid-area: na;
+}
+
+.e-mail{
+  grid-area: email
+}
+
+.cbox-area{
+  grid-area: cbox;
+}
+
+
+textarea{
+  resize: none;
+  width: 100%;
+  height: 176px;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+label{
+  display: block;
+}
+
+input{
+  width: 100%;
+  height: 42px;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+:is(textarea,input):hover{
+  border: 2px solid #FE0078;
+  cursor: pointer;
+}
+
+
