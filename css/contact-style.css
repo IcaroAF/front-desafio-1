@@ -2,6 +2,8 @@
 @import url(post-style.css);
 
 
+/* Contact info styles*/
+
 .grid-container{
   grid-template-areas: "ca as";
 }
@@ -27,11 +29,19 @@
   margin-top: 32px;
 }
 
+.info{
+  margin-top: 15px;
+}
+
 
 h4{
   display: inline-block;
 }
 
+
+/* --- End of contact info styles ----  */
+
+/* --- Contact form styles --- */
 .comment-area{
   margin-top: 40px;
 }
@@ -48,3 +58,10 @@ form{
 .subject{
   grid-area: as;
 }
+
+.contact-bt{
+  width: 93px;
+  margin: 0;
+}
+
+/* --- End of Contact styles --- */

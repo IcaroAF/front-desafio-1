@@ -22,9 +22,6 @@
    height: 70px;
  }
 
- .main-nav{
-   
- }
 
  .main-nav>ul{
   display: flex;
@@ -40,7 +37,7 @@
 
  /* --- End of header styles --- */
 
- /* --- Grid content ---- */
+ /* --- Grid content --- */
 
 .grid-container{
   display: grid;
@@ -51,6 +48,10 @@
   grid-template-areas: "pa as";
 }
 
+ /* --- End of Grid content ---- */
+
+ 
+ /*--- Post area style  ---*/
 .post-area{
   display: flex;
   flex-direction: column;
@@ -76,7 +77,9 @@
   font-size: 14px;
 }
 
-/**/
+/*--- End of post area style  ---*/
+
+/* --- Side menu styles --- */
 
 .sidemenu{
   width: 380px;
@@ -110,8 +113,7 @@
 
 .sidetitle{
   border-left:2px solid #FE0078;
-  margin-left: 16px;
-  margin-bottom: 40px;
+  margin: 0 0 40px 16px;
   padding-left: 11px;
 }
 
@@ -148,21 +150,17 @@
   width: 340px;
   height: 240px;
   background-color: #e1e3e3 ;
-  margin-top: 32px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 32px auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 36px;
   color: #545454;
 }
-/**/
-
- /*--- End of grid content ---*/
+/* --- End Side menu styles --- */
 
 
- /*footer*/
+ /*footer styles*/
 
  footer{
    margin-top: 64px;
@@ -196,3 +194,5 @@
    color: white;
    background-color: #FE0078;
  }
+
+/*end of footer styles*/
