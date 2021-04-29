@@ -1,0 +1,50 @@
+@import url(style.css);
+@import url(post-style.css);
+
+
+.grid-container{
+  grid-template-areas: "ca as";
+}
+
+
+.contact-area{
+  display: flex;
+  flex-direction: column;
+  height: 998px;
+  padding: 24px;
+  font-size: 14px;
+  grid-area: ca;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.contact-title{
+  margin-bottom: 24px;
+}
+
+
+.contact-info{
+  margin-top: 32px;
+}
+
+
+h4{
+  display: inline-block;
+}
+
+.comment-area{
+  margin-top: 40px;
+}
+
+form{
+  grid-template-columns: 329px 329px;
+  grid-template-rows: 69px 69px 203px;
+  grid-template-areas: "na email"
+                       "as as"
+                       "cbox cbox";
+  margin-bottom: 32px;
+}
+
+.subject{
+  grid-area: as;
+}

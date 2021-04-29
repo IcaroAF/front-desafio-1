@@ -100,7 +100,12 @@
 .side-input:hover{
   cursor: pointer;
   border: 1px solid #FE0078;
+  border-radius: 10px;
+}
 
+.side-input:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px #FE0078;
 }
 
 .sidetitle{
