@@ -23,15 +23,23 @@ article:last-child{
 /* --- End of post grid styles  --- */
 
 /* --- Form styles --- */
+
+.comment-area{
+  display: flex;
+  flex-direction: column;
+}
+
 form{
   display: grid;
-  grid-template-columns: 366px 366px;
+  grid-template-columns: auto auto;
   grid-template-rows: 69px 203px;
   column-gap: 24px;
   row-gap: 24px;
   grid-template-areas: "na email"
                        "cbox cbox";
 }
+
+
 
 .comment-area>h2{
   margin-bottom: 24px;
@@ -87,7 +95,8 @@ input{
 /* --- Comment area button styles --- */
 
 .comment-bt{
-  align-self: flex-end;
+  margin-top: 48px;
+  margin-right: 0;
 }
 
 /* --- End of comment area button styles --- */

@@ -4,6 +4,10 @@
 
 /* Contact info styles*/
 
+h4{
+  display: inline-block;
+}
+
 .grid-container{
   grid-template-areas: "ca as";
 }
@@ -33,12 +37,6 @@
   margin-top: 15px;
 }
 
-
-h4{
-  display: inline-block;
-}
-
-
 /* --- End of contact info styles ----  */
 
 /* --- Contact form styles --- */
@@ -46,7 +44,7 @@ h4{
   margin-top: 40px;
 }
 
-form{
+.contact-form{
   grid-template-columns: 329px 329px;
   grid-template-rows: 69px 69px 203px;
   grid-template-areas: "na email"
